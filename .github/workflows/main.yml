@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: higashi000/hello-world-docker-action@v1
+        uses: higashi000/hello-world-docker-action@v1.1
         with:
           who-to-greet: 'higashi'
 
